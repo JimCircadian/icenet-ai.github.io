@@ -109,7 +109,7 @@ en: &DEFAULT_EN
         social: []
       - name: "Tom Andersson"
         role: "ML Researcher"
-        image: assets/img/team/2.jpg
+        image: assets/img/team/500x500.jpg
         social: []
       - name: "Ellen Bowler"
         role: "Ecosystems Researcher"
