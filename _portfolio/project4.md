@@ -1,18 +1,22 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/04-full.jpg
-alt: 
+title: [icenet-etl](https://github.com/icenet-ai/icenet-etl)
+subtitle: This project is for the code that provisions the Azure cloud infrastructure.
+#image: assets/img/portfolio/03-full.jpg
+#alt: 
 
 caption:
-  title: Lines
-  subtitle: Branding
-  thumbnail: assets/img/portfolio/04-thumbnail.jpg
+  title: [icenet-etl](https://github.com/icenet-ai/icenet-etl)
+  subtitle: This project is for the code that provisions the Azure cloud infrastructure.
+#  thumbnail: assets/img/portfolio/03-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+This project is for the code that provisions the Azure cloud infrastructure. It sets up various Azure resources and is currently under heavy development.
 
-{:.list-inline}
-- Date: October 2019
-- Client: Lines
-- Category: Branding
+Forecast NetCDFs are deposited into the cloud infrastructure for dissemination and processing.
+
+For further details [look at the repository here](https://github.com/icenet-ai/icenet-etl).
+
+#{:.list-inline}
+#- Date: January 2017
+#- Client: Finish
+#- Category: Identity
 

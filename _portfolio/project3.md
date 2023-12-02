@@ -1,18 +1,24 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/03-full.jpg
-alt: 
+title: [icenet-pipeline](https://github.com/icenet-ai/icenet-pipeline)
+subtitle: Implementations of icenet workflows for end-to-end training and predictions in bash.
+#image: assets/img/portfolio/03-full.jpg
+#alt: 
 
 caption:
-  title: Finish
-  subtitle: Identity
-  thumbnail: assets/img/portfolio/03-thumbnail.jpg
+  title: [icenet-pipeline](https://github.com/icenet-ai/icenet-pipeline)
+  subtitle: Implementations of icenet workflows for end-to-end training and predictions in bash.
+#  thumbnail: assets/img/portfolio/03-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+A detailed explanation of the machine learning pipeline can be [found here](https://github.com/icenet-ai/icenet-project/wiki/Model-Pipeline). Fundamentally, there is a reusable and continuously executable pipeline from data ingestion through to forecast production and upload. This repository complements the icenet-notebooks repository which explains both CLI and programmatic usage, by actually implementing a load of workflows in bash.
 
-{:.list-inline}
-- Date: January 2017
-- Client: Finish
-- Category: Identity
+This high level diagram depicts the structuring of the pipeline:
+
+<img src="https://github.com/icenet-ai/icenet-project/wiki/Pipeline%20Layout.png" alt="IceNet ML Pipeline" />
+
+The daily forecasting pipeline centers around a refactored version [of the original research model for monthly forecasts](https://github.com/tom-andersson/icenet-paper), located [in this library](https://www.github.com/icenet-ai/icenet). An example to using the library [can be found here](https://github.com/icenet-ai/icenet-pipeline) which leverage a BAS developed tool for running [model ensembles.](https://github.com/JimCircadian/model-ensembler) on HPCs."
+
+#{:.list-inline}
+#- Date: January 2017
+#- Client: Finish
+#- Category: Identity
 
