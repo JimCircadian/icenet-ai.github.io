@@ -52,6 +52,7 @@ en: &DEFAULT_EN
       - title: "Seasonal Arctic sea ice forecasting with probabilistic deep learning"
         year: "2021"
         desc: "A detailed walkthrough the research.<br /><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JAKWhEU09Xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
+        align: left
       - title: "Predicting Sea Ice using AI - a general introduction"
         year: "2021"
         desc: "[Tom Andersson](https://www.bas.ac.uk/profile/tomand) describing IceNet.<br /><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lzJA7r0oNcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
