@@ -24,13 +24,13 @@ en: &DEFAULT_EN
     list:
       - title: "1. [icenet-notebooks](https://github.com/icenet-ai/icenet-notebooks)"
         desc: "Check out the notebooks"
-#        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+        # icon: fas fa-shopping-cart
       - title: "2. [icenet](https://github.com/icenet-ai/icenet)"
         desc: "Look at the library"
-#        icon: fas fa-laptop
+        # icon: fas fa-laptop
       - title: "3. [icenet-pipeline](https://github.com/icenet-ai/icenet-pipeline)"
         desc: "Explore workflows that can be run on your HPC"
-#        icon: fab fa-markdown
+        # icon: fab fa-markdown
 
   portfolio:
     title: "Repositories"
@@ -42,8 +42,6 @@ en: &DEFAULT_EN
     title: "A list of resources"
     text: "Here's a list of publication and presentations around IceNet and it's infrastructure."
     section: timeline
-    # left is the default
-    #start_align: "left"
     events:
       - title: "The original research paper"
         year: "2021"
@@ -67,19 +65,12 @@ en: &DEFAULT_EN
       - title: "Some reasoning about AI approaches"
         year: "2023"
         desc: "[Scott Hosking](https://scotthosking.com/) of [BAS](https://www.bas.ac.uk/profile/jask/) and [The Alan Turing Institute](https://www.turing.ac.uk/people/researchers/scott-hosking) highlighting the importance of AI approaches on Al Jazeera.<br /><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ILkdToflkZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
-#        image: assets/img/timeline/1.jpg
-#        alt: Snapshot of the research paper
     end: "Join the sea-ice forecasting crew by getting involved on GitHub!"
 
   about:
     title: "About Us"
     text: ""
-    body: "IceNet is a deep learning sea ice forecasting system developed by an [international team and led by the British Antarctic Survey and The Alan Turing Institute](https://www.bas.ac.uk/media-post/artificial-intelligence-to-help-predict-arctic-sea-ice-loss/).
-The original IceNet research model, [published in *Nature Communications*](https://www.nature.com/articles/s41467-021-25257-4) was trained on climate simulations and observational data to forecast the next 6 months of monthly-averaged sea ice concentration maps.
-This version advanced the range of accurate sea ice forecasts, outperforming a state-of-the-art dynamical model (ECMWF SEAS5) in seasonal forecasts of summer sea ice, particularly for extreme sea ice events.
-Since then, the IceNet team has focussed on building an operational version of the model which forecasts on a daily resolution.
-The [original research code](https://www.github.com/tom-andersson/icenet-paper) was refactored into `icenet`: [a library for operational forecasting](https://github.com/icenet-ai/icenet).
-The `icenet` library can support further research efforts into AI-based operational sea ice forecasting"
+    body: "IceNet is a deep learning sea ice forecasting system developed by an [international team and led by the British Antarctic Survey and The Alan Turing Institute](https://www.bas.ac.uk/media-post/artificial-intelligence-to-help-predict-arctic-sea-ice-loss/). The original IceNet research model, [published in *Nature Communications*](https://www.nature.com/articles/s41467-021-25257-4) was trained on climate simulations and observational data to forecast the next 6 months of monthly-averaged sea ice concentration maps. This version advanced the range of accurate sea ice forecasts, outperforming a state-of-the-art dynamical model (ECMWF SEAS5) in seasonal forecasts of summer sea ice, particularly for extreme sea ice events. Since then, the IceNet team has focussed on building an operational version of the model which forecasts on a daily resolution. The [original research code](https://www.github.com/tom-andersson/icenet-paper) was refactored into `icenet` - [a library for operational forecasting](https://github.com/icenet-ai/icenet). The `icenet` library can support further research efforts into AI-based operational sea ice forecasting"
     section: about
 
   clients:
@@ -87,26 +78,27 @@ The `icenet` library can support further research efforts into AI-based operatio
     max-height: 0px
     horizontal-scrolling: "" #"yes/no"
     list: []
-#      - title: "envato"
-#        url: https://github.com/raviriley/agency-jekyll-theme
-#        logo: assets/img/clients/envato.jpg
+    #      - title: "envato"
+    #        url: https://github.com/raviriley/agency-jekyll-theme
+    #        logo: assets/img/clients/envato.jpg
 
   team:
     title: "The IceNet Team"
     text: "Here we name the ongoing collaborators who manage the project."
     subtext: The IceNet project is a collaboration between The Alan Turing Institute and British Antarctic Survey. It's only made possible thanks to the contributions of many across the environmental research, data science and international sea-ice and ecosystems communities at large. *The names here are only those who continually manage the project*, **but many more have been responsible for the innovation and research that makes IceNet "an infrastructure for the future"**!
     section: team
+    #          - url: https://twitter.com
+    #            icon: fab fa-twitter
+    #          - url: https://facebook.com
+    #            icon: fab fa-facebook-f
+    #          - url: https://linkedin.com
+    #            icon: fab fa-linkedin-in
     people:
       - name: "Scott Hosking"
         role: "Principal Investigation"
         image: assets/img/team/500x500.jpg
         social: []
-#          - url: https://twitter.com
-#            icon: fab fa-twitter
-#          - url: https://facebook.com
-#            icon: fab fa-facebook-f
-#          - url: https://linkedin.com
-#            icon: fab fa-linkedin-in
+        
       - name: "James Byrne"
         role: "Lead Research Software Engineer"
         image: assets/img/team/500x500.jpg
@@ -128,16 +120,16 @@ The `icenet` library can support further research efforts into AI-based operatio
     title: "Contact Us"
     text: "Please contact jambyr <at> bas <dot> ac <dot> uk"
     section: contact
-#    name: "Name*"
-#    name-validation: "Please enter your name."
-#    email: "Email*"
-#    email-validation: "Please enter your email address."
-#    phone: "Phone Number"
-#    phone-validation: "Please enter your phone number."
-#    message: "Message*"
-#    message-validation: "Please enter a message."
-#    subject: "Contact Form Submission"
-#    submit: "Send Message"
+    #    name: "Name*"
+    #    name-validation: "Please enter your name."
+    #    email: "Email*"
+    #    email-validation: "Please enter your email address."
+    #    phone: "Phone Number"
+    #    phone-validation: "Please enter your phone number."
+    #    message: "Message*"
+    #    message-validation: "Please enter a message."
+    #    subject: "Contact Form Submission"
+    #    submit: "Send Message"
 
   footer:
     legal: "Privacy Policy"
