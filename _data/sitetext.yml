@@ -49,22 +49,22 @@ en: &DEFAULT_EN
         align: right
       - title: "Seasonal Arctic sea ice forecasting with probabilistic deep learning"
         year: "2021"
-        desc: "A detailed walkthrough the research.<br /><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JAKWhEU09Xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
+        desc: 'A detailed walkthrough the research.<br /><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JAKWhEU09Xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
         align: left
       - title: "Predicting Sea Ice using AI - a general introduction"
         year: "2021"
-        desc: "[Tom Andersson](https://www.bas.ac.uk/profile/tomand) describing IceNet.<br /><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lzJA7r0oNcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
+        desc: '[Tom Andersson](https://www.bas.ac.uk/profile/tomand) describing IceNet.<br /><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lzJA7r0oNcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
         align: right
       - title: "AI UK"
         year: "2022"
-        desc: "Demonstration of the original proof of concept pipeline approach online for AI UK 2022 with [Tom Andersson](https://www.bas.ac.uk/profile/tomand) and [James Robinson](https://www.turing.ac.uk/people/researchers/james-robinson). <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KqnHCAec0Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
+        desc: 'Demonstration of the original proof of concept pipeline approach online for AI UK 2022 with [Tom Andersson](https://www.bas.ac.uk/profile/tomand) and [James Robinson](https://www.turing.ac.uk/people/researchers/james-robinson). <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KqnHCAec0Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
       - title: "Climate Informatics"
         year: "2023"
-        desc: "[James Byrne](https://www.bas.ac.uk/profile/jambyr) described how the IceNet project used software engineering to operationalise research for climate science at [Climate Informatics 2023](https://cambridge-iccs.github.io/climate-informatics-2023/).<br /><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sfmVOaR_YCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
+        desc: '[James Byrne](https://www.bas.ac.uk/profile/jambyr) described how the IceNet project used software engineering to operationalise research for climate science at [Climate Informatics 2023](https://cambridge-iccs.github.io/climate-informatics-2023/).<br /><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sfmVOaR_YCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
         align: right
       - title: "Some reasoning about AI approaches"
         year: "2023"
-        desc: "[Scott Hosking](https://scotthosking.com/) of [BAS](https://www.bas.ac.uk/profile/jask/) and [The Alan Turing Institute](https://www.turing.ac.uk/people/researchers/scott-hosking) highlighting the importance of AI approaches on Al Jazeera.<br /><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ILkdToflkZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
+        desc: '[Scott Hosking](https://scotthosking.com/) of [BAS](https://www.bas.ac.uk/profile/jask/) and [The Alan Turing Institute](https://www.turing.ac.uk/people/researchers/scott-hosking) highlighting the importance of AI approaches on Al Jazeera.<br /><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ILkdToflkZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
     end: "Join the sea-ice forecasting crew by getting involved on GitHub!"
 
   about:
