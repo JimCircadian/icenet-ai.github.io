@@ -14,31 +14,22 @@ en: &DEFAULT_EN
     title: AI powered
     text: Sea ice forecasts
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#repository"
 
-  services:
-    title: "Getting started"
-    text: "IceNet is a deep learning sea ice forecasting system developed by an [international team and led by the British Antarctic Survey and The Alan Turing Institute](https://www.bas.ac.uk/media-post/artificial-intelligence-to-help-predict-arctic-sea-ice-loss/). The original IceNet research model, [published in *Nature Communications*](https://www.nature.com/articles/s41467-021-25257-4) was trained on climate simulations and observational data to forecast the next 6 months of monthly-averaged sea ice concentration maps. This version advanced the range of accurate sea ice forecasts, outperforming a state-of-the-art dynamical model (ECMWF SEAS5) in seasonal forecasts of summer sea ice, particularly for extreme sea ice events.<br /><br />Since then, the IceNet team has focussed on building an operational version of the model which forecasts on a daily resolution. The [original research code](https://www.github.com/tom-andersson/icenet-paper) was refactored into `icenet` - [a library for operational forecasting](https://github.com/icenet-ai/icenet). The `icenet` library can support further research efforts into AI-based operational sea ice forecasting.<br /><br />In addition, several use cases and an ecosystem of service components are contained within this organisation, supporting execution and downstream analysis.<br /><br />For further information about the team involved, please look at the [project pages at BAS](https://www.bas.ac.uk/project/icenet/) or [The Alan Turing Institute](https://www.turing.ac.uk/news/artificial-intelligence-help-predict-arctic-sea-ice-loss)."
+  about:
+    title: "About IceNet"
+    text: 'What is this AI powered forecasting all about?'
+    body: IceNet is a deep learning sea ice forecasting system developed by an [international team and led by the British Antarctic Survey and The Alan Turing Institute](https://www.bas.ac.uk/media-post/artificial-intelligence-to-help-predict-arctic-sea-ice-loss/). The original IceNet research model, [published in *Nature Communications*](https://www.nature.com/articles/s41467-021-25257-4) was trained on climate simulations and observational data to forecast the next 6 months of monthly-averaged sea ice concentration maps. This version advanced the range of accurate sea ice forecasts, outperforming a state-of-the-art dynamical model (ECMWF SEAS5) in seasonal forecasts of summer sea ice, particularly for extreme sea ice events.<br /><br />Since then, the IceNet team has focussed on building an operational version of the model which forecasts on a daily resolution. The [original research code](https://www.github.com/tom-andersson/icenet-paper) was refactored into `icenet` - [a library for operational forecasting](https://github.com/icenet-ai/icenet). The `icenet` library can support further research efforts into AI-based operational sea ice forecasting.<br /><br />In addition, several use cases and an ecosystem of service components are contained within this organisation, supporting execution and downstream analysis.<br /><br />For further information about the team involved, please look at the [project pages at BAS](https://www.bas.ac.uk/project/icenet/) or [The Alan Turing Institute](https://www.turing.ac.uk/news/artificial-intelligence-help-predict-arctic-sea-ice-loss)."
 
-    section: services
-    list:
-      - title: "1. [icenet-notebooks](https://github.com/icenet-ai/icenet-notebooks)"
-        desc: "Check out the notebooks"
-        # icon: fas fa-shopping-cart
-      - title: "2. [icenet](https://github.com/icenet-ai/icenet)"
-        desc: "Look at the library"
-        # icon: fas fa-laptop
-      - title: "3. [icenet-pipeline](https://github.com/icenet-ai/icenet-pipeline)"
-        desc: "Explore workflows that can be run on your HPC"
-        # icon: fab fa-markdown
+    section: about
 
-  portfolio:
+  repository:
     title: "Repositories"
-    text: "The various repositories under the IceNet project"
-    section: portfolio
+    text: "The various repositories under the IceNet project, click for more information"
+    section: repository
     closebutton: "Close Information"
 
-  timeline: 
+  timeline:
     title: "A list of resources"
     text: "Here's a list of publication and presentations around IceNet and it's infrastructure."
     section: timeline
@@ -67,12 +58,6 @@ en: &DEFAULT_EN
         desc: '[Scott Hosking](https://scotthosking.com/) of [BAS](https://www.bas.ac.uk/profile/jask/) and [The Alan Turing Institute](https://www.turing.ac.uk/people/researchers/scott-hosking) highlighting the importance of AI approaches on Al Jazeera.<br /><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ILkdToflkZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
     end: "Join the sea-ice forecasting crew by getting involved on GitHub!"
 
-  about:
-    title: "About Us"
-    text: ""
-    body: "IceNet is a deep learning sea ice forecasting system developed by an [international team and led by the British Antarctic Survey and The Alan Turing Institute](https://www.bas.ac.uk/media-post/artificial-intelligence-to-help-predict-arctic-sea-ice-loss/). The original IceNet research model, [published in *Nature Communications*](https://www.nature.com/articles/s41467-021-25257-4) was trained on climate simulations and observational data to forecast the next 6 months of monthly-averaged sea ice concentration maps. This version advanced the range of accurate sea ice forecasts, outperforming a state-of-the-art dynamical model (ECMWF SEAS5) in seasonal forecasts of summer sea ice, particularly for extreme sea ice events. Since then, the IceNet team has focussed on building an operational version of the model which forecasts on a daily resolution. The [original research code](https://www.github.com/tom-andersson/icenet-paper) was refactored into `icenet` - [a library for operational forecasting](https://github.com/icenet-ai/icenet). The `icenet` library can support further research efforts into AI-based operational sea ice forecasting"
-    section: about
-
   clients:
     section: clients
     max-height: 0px
@@ -98,7 +83,7 @@ en: &DEFAULT_EN
         role: "Principal Investigation"
         image: assets/img/team/500x500.jpg
         social: []
-        
+
       - name: "James Byrne"
         role: "Lead Research Software Engineer"
         image: assets/img/team/500x500.jpg
@@ -146,4 +131,3 @@ en-GB:
   <<: *DEFAULT_EN
 en-AU:
   <<: *DEFAULT_EN
-
