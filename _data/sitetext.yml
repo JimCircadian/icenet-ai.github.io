@@ -84,34 +84,62 @@ en: &DEFAULT_EN
     text: "Here we name the ongoing collaborators who manage the project."
     subtext: The IceNet project is a collaboration between The Alan Turing Institute and British Antarctic Survey. It's only made possible thanks to the contributions of many across the environmental research, data science and international sea-ice and ecosystems communities at large. *The names here are only those who continually manage the project*, **but many more have been responsible for the innovation and research that makes IceNet "an infrastructure for the future"**!
     section: team
-    #          - url: https://twitter.com
-    #            icon: fab fa-twitter
-    #          - url: https://facebook.com
-    #            icon: fab fa-facebook-f
-    #          - url: https://linkedin.com
-    #            icon: fab fa-linkedin-in
+
     people:
       - name: "Scott Hosking"
         role: "Principal Investigation"
         image: assets/img/team/scott-hosking.jpg
-        social: []
+        social:
+          - url: https://scotthosking.com/
+            icon: fas fa-window-maximize
+          - url: https://twitter.com/scotthosking
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/scotthosking/
+            icon: fab fa-linkedin-in
+          - url: https://www.github.com/scotthosking/
+            icon: fab fa-github
 
       - name: "James Byrne"
         role: "Lead Research Software Engineer"
         image: assets/img/team/james-byrne.jpg
-        social: []
+        social:
+          - url: https://inconsistentrecords.co.uk/
+            icon: fas fa-window-maximize
+          - url: https://twitter.com/jimcircadian
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/jimcircadian/
+            icon: fab fa-linkedin-in
+          - url: https://www.github.com/jimcircadian/
+            icon: fab fa-github
+
       - name: "Ellen Bowler"
         role: "Ecosystems Researcher"
         image: assets/img/team/ellen-bowler.jpg
-        social: []
+        social:
+          - url: https://twitter.com/EllieBowler32
+            icon: fab fa-twitter
+          - url: https://www.github.com/EllieBowler/
+            icon: fab fa-github
+
       - name: "Alden Conner"
         role: "Research Application Manager"
         image: assets/img/team/alden-conner.jpg
-        social: []
+        social:
+          - url: https://twitter.com/alden_tweets
+            icon: fab fa-twitter
+          - url: https://www.github.com/aldenc/
+            icon: fab fa-github
+
       - name: "Tom Andersson"
         role: "Original ML Researcher"
         image: assets/img/team/tom-andersson.jpg
-        social: []
+        social:
+          - url: https://twitter.com/tom_r_andersson
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/tom-andersson/
+            icon: fab fa-linkedin-in
+          - url: https://www.github.com/tom-andersson/
+            icon: fab fa-github
 
   contact:
     title: "<br />Contact Us"
