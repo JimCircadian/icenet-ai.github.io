@@ -31,7 +31,9 @@
               {% endif %}
             {%- endif -%}
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
+								<a href="{{ event.url }}" target="_new">
+                	<img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
+								</a>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -39,15 +41,18 @@
                   <h4 class="subheading">{{ event.title }}</h4>
                 </div>
                 <div class="timeline-body">
-                  <div class="text-muted">{{ event.desc | markdownify }}</div>
+                  <div class="text-muted">
+										{{ event.desc | markdownify }}
+										{{ event.html | html }}
+									</div>
                 </div>
               </div>
             </li>
-		  {% endfor %}	
-            
-		  {% if site.data.sitetext[site.locale].timeline.end %}	
+		  {% endfor %}
+
+		  {% if site.data.sitetext[site.locale].timeline.end %}
 			<li class="timeline-inverted">
-              <div class="timeline-image">
+              <div class="timeline-image timeline-ending">
                 <h4>{{ site.data.sitetext[site.locale].timeline.end }}</h4>
               </div>
             </li>
@@ -102,14 +107,13 @@
               </div>
             </div>
           </li>
-    {% endfor %}	
-          
-    {% if site.data.sitetext.timeline.end %}	
+    {% endfor %}
+
+    {% if site.data.sitetext.timeline.end %}
     <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>{{ site.data.sitetext.timeline.end }}</h4>
-            </div>
-          </li>
+<!--            <div class="timeline-image"></div>-->
+      <h4>{{ site.data.sitetext.timeline.end }}</h4>
+    </li>
     {% endif %}
 
         </ul>
